@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__row:hover {
+    background-color: #898787;
+}
+
+.table__cell {
+    border: groove 2px black;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__header {
+    background-color: #629fea;
+    color: antiquewhite;
+}
+
+.unordered__list {
+    list-style-type: none;
+}
+
+.unordered__item {
+        margin: 10px 0;
+        border-bottom: 1px solid #629fea;
+        border-color: #629fea;
+        max-width: 400px;
+        margin: 20px 0;
+        letter-spacing: 0.2em;
+    }

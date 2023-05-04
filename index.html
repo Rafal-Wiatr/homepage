@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafał Wiatr - strona o mnie</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+
+</head>
+
+<body class="body">
+    <Article class="article">
+        <header>
+            <h1 class="article__header">
+                Rafał Wiatr w IT</h1>
+                <button class="buttonTheme">
+                    <span class="themeName">Ciemny
+                    </span>
+                    Motyw
+                </button>
+            <nav>
+                <ul class="navList">
+                    <li class="navList__Element"><a class="nav__link" href="#zdjęcie">Zdjęcie</a></li>
+                    <li class="navList__Element"><a class="nav__link" href="#doEdukacja">Edukacja</a></li>
+                    <li class="navList__Element"><a class="nav__link" href="#doSport">Sport</a></li>
+                </ul>
+            </nav>
+    </Article>
+    </header>
+    <Article class="article">
+        <h2 class="article__header">O mnie</h2>
+        <p><strong> Cześć!</strong><br>
+            Musze przyznać, że długo zabierałem się do uczestnictwa w kursie<br>
+            Od zawsze miałem taki pomysł w głowie aby <em>spróbować</em> swoich sił w dziedzinie związanej z
+            informatyką.<br>
+            Bardzo się cieszę, że zaczynam jako <i>Frontend Developer</i>.</p>
+    </article>
+    <article class="article">
+        <h2 class="article__header">Zalożenia na kurs</h2>
+        <p><b>Nie poddawać się</b> i krok po kroku razem z <a class="nav__link"
+                href="https://youcode.pl/frontend-developer-od-podstaw/">YouCode</a> dążyć do celu
+            &#128512;.</p>
+        <img id="zdjęcie" src="https://iili.io/H1xzVtI.md.jpg" width="300" height="300" alt="Rafał Wiatr">
+    </article>
+    <article class="article">
+        <h2 class="article__header"> Czym będę się wyróżniał</h2>
+        <p> Do tej pory zawodowo zajmowałem się: zarządzaniem zasobami ludzkimi, sprzedażą i klientem.<br>
+            Chciałbym wykorzystać zdobyte doświadczenia w przyszłości i zrobić z nich dodatkowy atut w branży
+            IT.
+        </p>
+    </article>
+    <article class="article" id="doEdukacja">
+        <h2 class="article__header">Edukacja</h2>
+        <table class="table">
+            <thead>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="col">Szkoła</th>
+                    <th class="table__cell table__header" scope="col">Poziom kształcenia</th>
+                    <th class="table__cell table__header" scope="col">Kierunek</th>
+                    <th class="table__cell table__header" scope="col">Patron szkoły</th>
+                    <th class="table__cell table__header" scope="col">Lata nauki</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">Szkoła nr 2 w Chrzanowie</th>
+                    <td class="table__cell">Podstawowy</td>
+                    <td class="table__cell">Brak</td>
+                    <td class="table__cell">im. Marii Konopnickiej</td>
+                    <td class="table__cell">8</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">Liceum Ogólnokształcące w Trzebini</th>
+                    <td class="table__cell">Średnie</td>
+                    <td class="table__cell">profil: Język Angielski rozszerzony</td>
+                    <td class="table__cell">im. Marii Skłodowskiej-Curie</td>
+                    <td class="table__cell">4</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">Wyższa Szkoła Przedsiębiorczosci i
+                        Marketingu w Chrzanowie
+                    </th>
+                    <td class="table__cell">Licencjat</td>
+                    <td class="table__cell">Zarządzanie i Marketing</td>
+                    <td class="table__cell">Brak</td>
+                    <td class="table__cell">3,5</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">Uniwersytet Ekonomiczny w Katowicach</th>
+                    <td class="table__cell">mgr</td>
+                    <td class="table__cell">ZZL i E-biznes</td>
+                    <td class="table__cell">im. Karola Adamieckiego</td>
+                    <td class="table__cell">4</td>
+
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row" colspan="4">RAZEM</th>
+                    <td class="table__cell">19,5</td>
+                </tr>
+            </tfoot>
+        </table>
+    </article>
+    <article class="article" id="doSport">
+        <h2 class="article__header">Mój ulubiony sport</h2>
+        <p>Już od dzieciństwa byłem aktywny na zajęciach sportowych, przyjemność sprawiało mi bycie w
+            ruchu.<br>Pomimo braku talentu, ciężką pracą i treningiem nauczyłem się grać w wiele gier
+            zespołowych i opanować poniższe dyscypliny sportu. Szczególnie polubiłem piłkę nożną, od 6 klasy
+            szkoły podstawowej do 25 roku życia grałem w kilku klubach amatorskich,
+            <br> niestety kontuzja spowodowała, że musiałem się wycofać. Obecnie gram tylko okazjonalnie ale
+            staram się utrzymywać aktywność fizyczną głównie dla zdrowia i dobrego
+            samopoczucia.
+        </p>
+        <ul class="unorderedList">
+            <li class="unorderedList__item">Piłka nożna</li>
+            <li class="unorderedList__item">Koszykówka</li>
+            <li class="unorderedList__item">Siatkówka</li>
+            <li class="unorderedList__item">Piłka ręczna</li>
+            <li class="unorderedList__item">Pływanie</li>
+            <li class="unorderedList__item">Rower</li>
+            <li class="unorderedList__item">Ping-pong</li>
+            <li class="unorderedList__item">Ćwiczenia na siłowni</li>
+        </ul>
+    </article>
+
+    <footer class="footer">
+        <p class="footer__paragraph">
+            © Rafał Wiatr 2023
+            <br>
+            <a href="mailto:wiatr.rafal@gmail.com">
+                Skontaktuj się
+            </a>
+        </p>
+    </footer>
+
+    </div>
+</body>

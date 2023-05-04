@@ -1,0 +1,130 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.bodyDark {
+    background-color: #4d4d4d;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1000px;
+    font: 16px/1.6 "Roboto", sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: #d6d6d678;
+    padding: 0 20px;
+}
+
+.buttonTheme {
+    color: white;
+    height: 50px;
+    width: 100px;
+    background: #2752b0;
+    box-shadow: 0 8px 0 #919291;
+    text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+.navList {
+    width: 400px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.navList__Element {
+    border-bottom: 1px solid #629fea;
+    border-color: #629fea;
+    max-width: 400px;
+    margin: 20px 0;
+    letter-spacing: 0.2em;
+}
+
+.nav__link {
+    color: rgb(15, 162, 224);
+    text-decoration: none;
+}
+
+.nav__link:visited {
+    color: rgb(0, 40, 151);
+}
+
+.nav__link:hover {
+    color: rgb(0, 13, 255);
+    border-bottom: 2px solid;
+    outline: none;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__row:hover {
+    background-color: #898787;
+}
+
+.table__cell {
+    border: groove 2px black;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__header {
+    background-color: #629fea;
+    color: antiquewhite;
+}
+
+.unorderedList {
+    list-style-type: none;
+}
+
+.unorderedList__item {
+    margin: 10px 0;
+    border-bottom: 1px solid #629fea;
+    border-color: #629fea;
+    max-width: 400px;
+    margin: 20px 0;
+    letter-spacing: 0.2em;
+}
+
+.article {
+    margin: auto;
+    text-align: center;
+    max-width: 1000px;
+    font: 16px/1.6 "Roboto", sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: #d6d6d678;
+    box-shadow: 5px 5px 5px 5px rgb(163, 163, 163);
+    padding-block-end: 10px;
+
+}
+
+.article__header {
+    color: rgb(38, 15, 210);
+    background-color: #9e9e9e78;
+    padding: 10px 10px;
+
+}
+
+.footer {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1000px;
+    font: 16px/1.6 "Lato", sans-serif;
+    color: rgb(38, 15, 210);
+    background-color: #d6d6d678;
+    box-shadow: 5px 5px 5px 5px rgb(163, 163, 163);
+}
+
+.footer__paragraph {
+    color: rgb(38, 15, 210);
+    background-color: #9e9e9e78;
+    padding: 10px 20px;
+
+}

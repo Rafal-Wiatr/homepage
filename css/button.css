@@ -1,0 +1,18 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.buttonTheme {
+    color: white;
+    height: 50px;
+    width: 100px;
+    background: #2752b0;
+    box-shadow: 0 8px 0 #919291;
+    text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    margin-right: 869px;
+}
