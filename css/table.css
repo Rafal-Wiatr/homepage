@@ -27,15 +27,15 @@ html {
     color: antiquewhite;
 }
 
-.unordered__list {
+.unorderedList {
     list-style-type: none;
 }
 
-.unordered__item {
-        margin: 10px 0;
-        border-bottom: 1px solid #629fea;
-        border-color: #629fea;
-        max-width: 400px;
-        margin: 20px 0;
-        letter-spacing: 0.2em;
-    }
+.unorderedList__item {
+    margin: 10px 0;
+    border-bottom: 1px solid #629fea;
+    border-color: #629fea;
+    max-width: 400px;
+    margin: 20px 0;
+    letter-spacing: 0.2em;
+}
